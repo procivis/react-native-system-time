@@ -1,0 +1,18 @@
+{
+  "name": "react-native-system-time",
+  "version": "0.0.1",
+  "description": "React Native Library for CPU Time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "Pascal Steiner",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  },
+  "typings": "index.d.ts"
+}
