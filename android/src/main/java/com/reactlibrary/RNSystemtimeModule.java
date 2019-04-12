@@ -5,6 +5,8 @@ import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.Callback;
+import com.facebook.react.bridge.Promise;
+import android.os.SystemClock;
 
 public class RNSystemtimeModule extends ReactContextBaseJavaModule {
 
@@ -22,6 +24,7 @@ public class RNSystemtimeModule extends ReactContextBaseJavaModule {
   
   @ReactMethod
   public void getTime(Promise promise){
-    promise.resolve(SystemClock.elapsedRealtimeNanos());
+    double value = SystemClock.elapsedRealtimeNanos();
+    promise.resolve(value);
   }
 }
