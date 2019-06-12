@@ -1,6 +1,6 @@
 {
   "name": "react-native-system-time",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "React Native Library for CPU Time",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   "author": "Pascal Steiner",
   "license": "MIT",
   "peerDependencies": {
-    "react-native": "^0.41.2"
+    "react-native": "^0.50.0"
   },
   "typings": "index.d.ts"
 }
