@@ -22,7 +22,7 @@
 #### Android
 
 1. Open up `android/app/src/main/java/[...]/MainActivity.java`
-  - Add `import com.reactlibrary.RNSystemtimePackage;` to the imports at the top of the file
+  - Add `import ch.procivis.systime.RNSystemtimePackage;` to the imports at the top of the file
   - Add `new RNSystemtimePackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
   	```

@@ -1,5 +1,5 @@
 
-package com.reactlibrary;
+package ch.procivis.systime;
 
 import java.util.Arrays;
 import java.util.Collections;
