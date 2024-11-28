@@ -1,8 +1,17 @@
 {
   "name": "react-native-system-time",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "React Native Library for CPU Time",
   "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "android",
+    "ios",
+    "RNSystemtime.podspec",
+    "lib"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
