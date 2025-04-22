@@ -1,6 +1,6 @@
 {
   "name": "react-native-system-time",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "React Native Library for CPU Time",
   "main": "index.js",
   "types": "index.d.ts",
@@ -23,5 +23,6 @@
   "peerDependencies": {
     "react-native": ">=0.56.0"
   },
-  "typings": "index.d.ts"
+  "typings": "index.d.ts",
+  "packageManager": "yarn@4.9.1"
 }
